@@ -61,6 +61,9 @@ python predict.py --model_path checkpoints/prime_base.pt \
 --save O25949-7.2.prime_base.csv
 ```
 
+## ProteinGym Scoring can be downloaded in
+https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=sharing
+
 ## 🚀 Example Notebooks
 
 - Zero-shot mutant effect prediction, see in this [notebook](/notebooks/zero-shot-mutant-effect-prediction.ipynb).
