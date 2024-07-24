@@ -2,15 +2,13 @@
 
 <!-- Insert the project banner here -->
 <div align="center">
-    <a href="https://github.com/ai4protein/Prime/"><img width="200px" height="auto" src="https://github.com/ai4protein/Prime/blob/main/band.png"></a>
+    <a href="https://github.com/ai4protein/Pro-Prime/"><img width="200px" height="auto" src="https://github.com/ai4protein/Pro-Prime/blob/main/band.png"></a>
 </div>
 
 <!-- Select some of the point info, feel free to delete -->
-[![GitHub license](https://img.shields.io/github/license/ai4protein/Prime)](https://github.com/ai4protein/Prime/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/ai4protein/Pro-Prime)](https://github.com/ai4protein/Pro-Prime/blob/main/LICENSE)
 
-Updated on 2023.10.20
-
-
+Updated on 2024.07.24
 
 ## Introduction
 
@@ -18,16 +16,17 @@ This repository provides the official implementation of Prime (Protein language 
 
 Key feature:
 - Zero-shot mutant effect prediction.
+- OGT Prediction
 
 ## Links
 
 - [Paper](https://arxiv.org/abs/2304.03780)
-- [Code](https://github.com/ai4protein/Prime) 
+- [Code](https://github.com/ai4protein/Pro-Prime) 
 
 ## Details
 
-### What is Prime?
-Prime, a novel protein language model, has been developed for predicting the Optimal Growth Temperature (OGT) and enabling zero-shot prediction of protein thermostability and activity. This novel approach leverages temperature-guided language modeling.
+### What is Pro-Prime?
+Pro-Prime, a novel protein language model, has been developed for predicting the Optimal Growth Temperature (OGT) and enabling zero-shot prediction of protein thermostability and activity. This novel approach leverages temperature-guided language modeling.
 <div align="center">
     <a href="https://"><img width="1000px" height="auto" src="https://github.com/ai4protein/Prime/blob/main/model.png"></a>
 </div>
@@ -43,33 +42,18 @@ torch==2.0.1
 ```bash
 pip install -r requirements.txt
 ```
-
-**Download checkpoints of PRIME**
-
-[Our official files website](https://lianglab.sjtu.edu.cn/files/Prime-2023/)
-
-For example
-```shell
-wget -O checkpoints/prime_base.pt https://lianglab.sjtu.edu.cn/files/Prime-2023/Base_model/prime_base.pt
-```
-
-**Predicting Mutant Effect**
-```shell
-python predict.py --model_path checkpoints/prime_base.pt \
---fasta ./tm_data/fasta/O25949-7.2.fasta \
---mutant tm_data/mutant/O25949-7.2.csv \
---save O25949-7.2.prime_base.csv
-```
-
-## ProteinGym Scoring can be downloaded in
+## ProteinGym Scores can be downloaded in
 https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=sharing
 
-## 🚀 Example Notebooks
-
+## 🚀 Run Notebooks
 - Zero-shot mutant effect prediction, see in this [notebook](/notebooks/zero-shot-mutant-effect-prediction.ipynb).
+- Run ProtienGym Benchmark, see in this [notebook](/notebooks/run_proteingym.ipynb).
 - OGT prediction, see in this [notebook](/notebooks/predict_ogt.ipynb).
-- Tm prediction, see in this [notebook](/notebooks/predict_tm.ipynb).
-- Topt prediction, see in this [notebook](/notebooks/predict_topt.ipynb).
+- Tm prediction, see in this [notebook](/notebooks/predict_TM.ipynb).
+- Topt prediction, see in this [notebook](/notebooks/predict_TOPT.ipynb).
+
+## Supervised fine-tuning for mutant fitness learning
+See sft/sft_mutant.sh
 
 ## 🙋‍♀️ Feedback and Contact
 
