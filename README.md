@@ -52,6 +52,12 @@ https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=shari
 - Tm prediction, see in this [notebook](/notebooks/predict_TM.ipynb).
 - Topt prediction, see in this [notebook](/notebooks/predict_TOPT.ipynb).
 
+- T7 prediction, see in this [notebook](/notebooks/t7.ipynb).
+- TGO_D4K prediction, see in this [notebook](/notebooks/tgod_d4k.ipynb).
+- VHH prediction, see in this [notebook](/notebooks/vhh.ipynb).
+- creatinase prediction, see in this [notebook](/notebooks/creatinase.ipynb).
+- argonaute prediction, see in this [notebook](/notebooks/argonaute.ipynb).
+
 ## Supervised fine-tuning for mutant fitness learning
 See sft/sft_mutant.sh
 
