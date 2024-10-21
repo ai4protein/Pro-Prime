@@ -58,8 +58,8 @@ https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=shari
 - creatinase prediction, see in this [notebook](/notebooks/creatinase.ipynb).
 - cas12a prediction, see in this [notebook](/notebooks/cas12a.ipynb).
 
-## Supervised fine-tuning for mutant fitness learning
-See sft/sft_mutant.sh
+<!-- ## Supervised fine-tuning for mutant fitness learning
+See sft/sft_mutant.sh -->
 
 ## 🙋‍♀️ Feedback and Contact
 
