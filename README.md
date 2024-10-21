@@ -46,7 +46,7 @@ pip install -r requirements.txt
 https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=sharing
 
 ## 🚀 Run Notebooks
-- Zero-shot mutant effect prediction, see in this [notebook](/notebooks/zero-shot-mutant-effect-prediction.ipynb).
+<!-- - Zero-shot mutant effect prediction, see in this [notebook](/notebooks/zero-shot-mutant-effect-prediction.ipynb). -->
 - Run ProtienGym Benchmark, see in this [notebook](/notebooks/run_proteingym.ipynb).
 - OGT prediction, see in this [notebook](/notebooks/predict_ogt.ipynb).
 - Tm prediction, see in this [notebook](/notebooks/predict_TM.ipynb).
