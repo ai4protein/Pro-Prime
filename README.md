@@ -56,7 +56,7 @@ https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=shari
 - TGO_D4K prediction, see in this [notebook](/notebooks/tgod_d4k.ipynb).
 - VHH prediction, see in this [notebook](/notebooks/vhh.ipynb).
 - creatinase prediction, see in this [notebook](/notebooks/creatinase.ipynb).
-- argonaute prediction, see in this [notebook](/notebooks/argonaute.ipynb).
+- cas12a prediction, see in this [notebook](/notebooks/cas12a.ipynb).
 
 ## Supervised fine-tuning for mutant fitness learning
 See sft/sft_mutant.sh
