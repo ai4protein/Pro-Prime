@@ -47,16 +47,10 @@ https://drive.google.com/file/d/1AEpK3TmgFNszZXJQWwRPkHUugrdHrTgk/view?usp=shari
 
 ## 🚀 Run Notebooks
 <!-- - Zero-shot mutant effect prediction, see in this [notebook](/notebooks/zero-shot-mutant-effect-prediction.ipynb). -->
-- Run ProtienGym Benchmark, see in this [notebook](/notebooks/run_proteingym.ipynb).
+- Run ProtienGym Benchmark or Zero-shot mutant Effect Prediction, see in this [notebook](/notebooks/run_proteingym.ipynb).
 - OGT prediction, see in this [notebook](/notebooks/predict_ogt.ipynb).
 - Tm prediction, see in this [notebook](/notebooks/predict_TM.ipynb).
 - Topt prediction, see in this [notebook](/notebooks/predict_TOPT.ipynb).
-
-- T7 prediction, see in this [notebook](/notebooks/t7.ipynb).
-- TGO_D4K prediction, see in this [notebook](/notebooks/tgod_d4k.ipynb).
-- VHH prediction, see in this [notebook](/notebooks/vhh.ipynb).
-- creatinase prediction, see in this [notebook](/notebooks/creatinase.ipynb).
-- cas12a prediction, see in this [notebook](/notebooks/cas12a.ipynb).
 
 <!-- ## Supervised fine-tuning for mutant fitness learning
 See sft/sft_mutant.sh -->
