@@ -57,7 +57,7 @@ See sft/sft_mutant.sh -->
 
 ## 🙋‍♀️ Feedback and Contact
 
-- [Send Email](mailto:ginnmelich@gmail.com)
+- [Send Email](mailto:tpan1039@gmail.com)
 
 ## 🛡️ License
 
