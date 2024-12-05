@@ -36,7 +36,7 @@ Pro-Prime, a novel protein language model, has been developed for predicting the
 
 **Main Requirements**  
 biopython==1.81
-torch==2.0.1
+torch (2.4)
 
 **Installation**
 ```bash
