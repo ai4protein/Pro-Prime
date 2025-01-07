@@ -1,4 +1,4 @@
-# Venus-Pro-Prime
+# Venus Prime
 
 <!-- Insert the project banner here -->
 <div align="center">
