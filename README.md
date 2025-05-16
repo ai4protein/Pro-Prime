@@ -80,3 +80,4 @@ If you find this repository useful, please consider citing this paper:
       primaryClass={q-bio.QM}
 }
 ```
+This project is licensed under the terms of the [CC-BY-NC-ND-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) license.
