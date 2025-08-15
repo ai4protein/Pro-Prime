@@ -169,23 +169,25 @@ def main():
         train_dataloader = DataLoader(train_dataset, batch_size=args.train_batch_size, shuffle=True)
         valid_dataloader = DataLoader(valid_dataset, batch_size=args.eval_batch_size, shuffle=False)
         test_dataloader = DataLoader(test_dataset, batch_size=args.eval_batch_size, shuffle=False)
-        trainer = L.Trainer(
-            max_epochs=args.max_epochs, 
-            accelerator="gpu",
-            devices=1,
-            # enable_checkpointing=False,
-            logger=False,
-            callbacks=[
-                EarlyStopping(monitor="valid_spearman", patience=args.patience, mode="max"),
-                ModelCheckpoint(
-                    monitor="valid_spearman", 
-                    mode="max", 
-                    save_top_k=1,
-                    save_last=True,
-                    filename=f"{Path(args.fasta).stem}" + "-{epoch}-{valid_spearman:.4f}",
-                )
-            ],
-        )
+    
+    trainer = L.Trainer(
+        max_epochs=args.max_epochs, 
+        accelerator="gpu",
+        devices=1,
+        # enable_checkpointing=False,
+        logger=False,
+        callbacks=[
+            EarlyStopping(monitor="valid_spearman", patience=args.patience, mode="max"),
+            ModelCheckpoint(
+                monitor="valid_spearman", 
+                mode="max", 
+                save_top_k=1,
+                save_last=True,
+                filename=f"{Path(args.fasta).stem}" + "-{epoch}-{valid_spearman:.4f}",
+            )
+        ],
+    )
+    if not args.skip_train:
         trainer.fit(model, train_dataloader, valid_dataloader)
         trainer.test(model, test_dataloader)
     
