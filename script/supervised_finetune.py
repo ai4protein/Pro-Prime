@@ -198,7 +198,8 @@ def main():
         predictions = trainer.predict(model, prediction_dataloader)
         predictions = torch.cat(predictions, dim=0)
         predictions = predictions.cpu().numpy()
-        predictions = predictions * train_std + train_mean
+        if args.normalize == "zscore":
+            predictions = predictions * train_std + train_mean
         prediction_df["score"] = predictions
         prediction_df.to_csv(args.output_csv, index=False)
 
